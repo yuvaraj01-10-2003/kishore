@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0px;
+    background-color:cadetblue;
+    box-sizing: border-box;
+}
+
+.page{
+    width: 100vw;
+    height: 100%;
+    text-align: center;
+    padding: 10px  5px;
+    background-color:cadetblue;
+    color: black;
+    padding: 40px;
+    
+    
+}
+img{
+    width: 150px;
+    height: 150px;
+    color: aliceblue;
+}
+#randomimg{
+    display: flex;
+    gap: 10px;
+    justify-content:center;
+    align-items: end;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  
+}
+.page h1{
+    margin-bottom: 30px;
+}
+#num{
+    background-color: black;
+    color: white;
+    width: 90px;
+    height: 20px;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: larger;
+    padding: 8px;
+
+}
+.rollbtn{
+    margin-top: 20px;
+    padding: 5px 20px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid blue;
+    background-color:aqua;
+    font-weight: bolder;
+
+} 
+input{
+   padding: 8px;
+}
+#randomnum{
+    margin: 10px;
+    color: white;
+}
+@media(max-width:500px){
+    img{
+        width: 100px;
+        height: 100px;
+    }
+}
